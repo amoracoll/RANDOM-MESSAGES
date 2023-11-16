@@ -21,5 +21,5 @@ function generarPalabraAleatoria() {
     var elementoP = document.getElementById("palabraAleatoria");
 
     // Actualiza el contenido del párrafo con la frase aleatoria
-    elementoP.textContent = "Frase aleatoria: " + frasesAleatorias[indiceAleatorio];
+    elementoP.textContent = frasesAleatorias[indiceAleatorio];
 }

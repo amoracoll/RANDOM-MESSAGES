@@ -2,18 +2,23 @@ body {
     background-color: yellow; /* Color de fondo de la página */
     margin: 0; /* Elimina el margen predeterminado del body */
     font-family: Arial, sans-serif; /* Tipo de fuente para el texto */
+    text-align: center;
 }
 
 h1 {
     color: #333; /* Color del texto */
     font-size: 28px; /* Tamaño de la fuente */
     margin-bottom: 10px; /* Margen inferior */
+    text-align: center;
+
 }
 
 #palabraAleatoria {
     color: #555; /* Color del texto */
     font-size: 24px; /* Tamaño de la fuente */
     margin-bottom: 8px; /* Margen inferior */
+    text-align: center;
+
 }
 
 button {
@@ -24,9 +29,13 @@ button {
     color: #fff;
     border: none;
     border-radius: 4px;
+    text-align: center;
+
 }
 
 /* Cambiar el color del botón al pasar el mouse sobre él */
 button:hover {
     background-color: #45a049;
+    text-align: center;
+
 }
