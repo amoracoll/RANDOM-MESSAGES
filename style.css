@@ -1,11 +1,26 @@
-h1{
-
+h1 {
+    color: #333; /* Color del texto */
+    font-size: 28px; /* Tamaño de la fuente */
+    margin-bottom: 10px; /* Margen inferior */
 }
 
-h2{
-
+h2 {
+    color: #555; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    margin-bottom: 8px; /* Margen inferior */
 }
 
-h3{
-    
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Cambiar el color del botón al pasar el mouse sobre él */
+button:hover {
+    background-color: #45a049;
 }
