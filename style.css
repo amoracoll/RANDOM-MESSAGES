@@ -1,7 +1,9 @@
 body {
-    background-color: yellow; /* Color de fondo de la página */
-    margin: 0; /* Elimina el margen predeterminado del body */
-    font-family: Arial, sans-serif; /* Tipo de fuente para el texto */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la ventana */
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Degradado vertical */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Color del texto */
     text-align: center;
 }
 
