@@ -13,7 +13,7 @@ var frasesAleatorias = [
 ];
 
 // Obtener una frase aleatoria
-function obtenerFraseAleatoria() {
+function obtenerFraseAleatoria(frasesAleatorias) {
     var indiceAleatorio = Math.floor(Math.random() * frasesAleatorias.length);
     return frasesAleatorias[indiceAleatorio];
 }
