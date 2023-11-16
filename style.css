@@ -1,10 +1,16 @@
+body {
+    background-color: yellow; /* Color de fondo de la página */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    font-family: Arial, sans-serif; /* Tipo de fuente para el texto */
+}
+
 h1 {
     color: #333; /* Color del texto */
     font-size: 28px; /* Tamaño de la fuente */
     margin-bottom: 10px; /* Margen inferior */
 }
 
-h2 {
+#palabraAleatoria {
     color: #555; /* Color del texto */
     font-size: 24px; /* Tamaño de la fuente */
     margin-bottom: 8px; /* Margen inferior */
